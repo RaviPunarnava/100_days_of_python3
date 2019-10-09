@@ -17,10 +17,11 @@ ss = str(now.second)
 print ("Current time with timestamp")
 print (now)
 
+#simpleset way of putting each values in one place
 print ("current time without timestamp")
 print (mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
-
+#Other way of printing the values
 print "Current year: %d" % now.year
 print "Current month: %d" % now.month
 print "Current day: %d" % now.day
